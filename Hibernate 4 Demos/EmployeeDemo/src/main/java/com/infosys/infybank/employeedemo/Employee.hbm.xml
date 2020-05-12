@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+  <class name="com.infosys.infybank.employeedemo.Employee" table="EMP_OPERATIONS" >
+  <id name="eno" column="EID">
+         <generator class="assigned"/>
+  </id>
+     <property name="ename" column="ENAME"/>
+     <property name="esalary" column="ESALARY"/>
+  </class> 
+  </hibernate-mapping>
+
+
+
